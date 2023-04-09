@@ -5,9 +5,15 @@
       line-height: 24px;
       font-weight: 500;
     }
-
-  .list{list-style: none;}
-
+    .list{list-style: none;}
+    /* logo */
+  .logo.logo-web{
+     color: #4D5AE5;
+  }
+   .logo.logo-studio{ 
+    color: #2E2F42;
+   }
+  
   /* site-nav */
   .site-nav.link{
     color: #2E2F42;
@@ -16,7 +22,20 @@
   .site-nav.link:focus{
     color: #404BBF;
   }
-  
+  /* address */
+.site-meta.link:hover
+.site-meta.link:focus{
+    color: #404BBF;
+}
+
+  /* Section 1 */
+
+  /* Section 2 */
+
+  /* Section 3 */
+
+  /* Section 4 */
+
 
     /* цвет заголовка */
     color: #2E2F42;
