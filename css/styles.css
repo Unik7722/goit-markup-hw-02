@@ -1,23 +1,48 @@
-.body{background:; 
-      color ;
+.body{background: #E5E5E5;
+      color: #434455;
       font-family: Roboto;
-      font-size: 16px;
-      line-height: 24px;
-      font-weight: 500;
     }
     .list{list-style: none;}
+    
     /* logo */
-  .logo.logo-web{
-     color: #4D5AE5;
-  }
-   .logo.logo-studio{ 
-    color: #2E2F42;
-   }
+   .logo{
+    font-weight: 800;
+    size: 18px;
+    line-height: 21px;
+    letter-spacing: 3%;
+    }
+   
+   .logo.logo-web{
+    color: #4D5AE5;
+    }
+   .logo.logo-studio{
+    color:#2E2F42;;
+   }  
+      
+   /* site-nav */
+      .site-nav{
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;}
+
+      .site-nav.linc{
+      color: #2E2F42;}
+      .site-nav.link:focus,
+      .site-nav.link:hover{
+        color: #404BBF;
+      }
+        
+
+ 
+    
+    
+   
   
-  /* site-nav */
-  .site-nav.link{
-    color: #2E2F42;
-  }
+  
+  
+  
   .site-nav.link:hover,
   .site-nav.link:focus{
     color: #404BBF;
@@ -28,6 +53,7 @@
     color: #404BBF;
 }
 
+
   /* Section 1 */
 
   /* Section 2 */
@@ -36,13 +62,4 @@
 
   /* Section 4 */
 
-
-    /* цвет заголовка */
-    color: #2E2F42;
-    /* цвет текста */
-    color: #434455;
-    /* доп цвет  */
-    color: #FFFFFF;
-    /* цвет кнопки */
-    color:#4D5AE5;
-       
+   
