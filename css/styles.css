@@ -193,5 +193,23 @@ body{
     color: #f4f4fd;
   }
 
+  /* Portfolio */
+  /* Section 1 button */
+  .menu-button{
+  background-color:  #F4F4FD;
+  cursor: pointer; 
+  color: #4D5AE5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-family: "Roboto" 'sans-serif';
+    }
+  .menu-button:hover,
+  .menu-button:focus{
+  background: #404BBF;
+  color: #ffffff;
+     }
 
-   
+     /* Section 2 */
+     
