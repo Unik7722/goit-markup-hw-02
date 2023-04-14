@@ -1,9 +1,18 @@
+:root{
+  --color-text:#434455;
+  --color-white:#ffffff;
+  --logo-lite:#4d5ae5;
+  --logo-dark:#2E2F42;
+  --activ-btn-link:#404BBF;
+  --color-grey:#434455;
+  --text-footer:#F4F4FD;
+     }
 body{
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #434455;
-  background-color: #ffffff;
+  color: var(color-text);
+  background-color:var(--color-white);
 }
 .list{
   list-style: none;
@@ -20,7 +29,7 @@ body{
     line-height: 1.1;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: var(--logo-lite);
     }
 
     .logo:hover {
@@ -28,12 +37,12 @@ body{
       font-weight: 600;
       font-size: 18px;
       line-height: 1.18;
-      color: #4d5ae5 ;
+      color: var(--logo-lite);
       text-decoration: none;
   }
 
    .logo-dark{
-    color:#2E2F42;;
+    color: var(--logo-dark);
    }  
       
    /* Navbar */
@@ -44,7 +53,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 2%;
-    color: #2E2F42;
+    color: var(--logo-dark);
 }
 
 .menu-link {
@@ -52,19 +61,19 @@ body{
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2E2F42;
+  color: var(--logo-dark);
 }
 
 .menu-link:hover {
-  color: #404BBF;
+  color: var(--activ-btn-link);
 }
 
 .menu-link:focus {
-  color: #404BBF;
+  color: var(--activ-btn-link);
 }
 
 .menu-link:active {
-  color: #4d5ae5;
+  color: var(--logo-lite);
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
@@ -85,26 +94,26 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--color-grey);
 }
 
 .contact-link:hover {
-    color: #404BBF;
+    color: var(--activ-btn-link);
 }
 
 .contact-link:focus {
-    color: #404BBF;
+    color: var(--activ-btn-link);
 }
 
 
   /* Section 1 */
 
   .hero{
-    background-color: #2E2F42;
+    background-color: var(--logo-dark);
   }
 
   .hero-title{
-    color: #ffffff;
+    color: var(--color-white);
     font-weight: 700;
     font-family: "Roboto" 'sans-serif';
     font-size: 56px;
@@ -114,9 +123,9 @@ body{
   }
 
   .hero-button{
-    background-color: #4d5ae5;
+    background-color: var(--logo-lite);
     cursor: pointer;
-    color: #ffffff;
+    color: var(--color-white);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -126,12 +135,12 @@ body{
 
   .hero-button:hover,
   .hero-button:focus{
-    background-color: #404BBF;
+    background-color: var(--activ-btn-link);
   }
 
   /* Section 2 */
   .desc{
-    color: #2E2F42;
+    color: var(--logo-dark);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.5;
@@ -142,7 +151,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--color-grey);
    }  
 
   /* Section 3 */
@@ -151,7 +160,7 @@ body{
     font-size: 36px;
     line-height:2.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--logo-dark);
      }
 
   /* Section 4 */
@@ -160,45 +169,45 @@ body{
     font-size: 36px;
     line-height: 2.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--logo-dark);
   }
   .team-title{
    font-weight: 500;
    font-size: 20px;
    line-height: 1.5;
    letter-spacing: 0.02em;
-   color: #2E2F42;
+   color: var(--logo-dark);
   }
   .team-title-text{
    font-weight: 400;
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
-   color: #434455;
+   color: var(--color-grey);
 }
   
   /* footer */
 
   .footer-style{
-    background-color: #2E2F42;
+    background-color: var(--logo-dark);
   }
 
   .logo-light{
-    color: #f4f4fd;
+    color: var(--text-footer);
   }
 
   .footer-text{
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #f4f4fd;
+    color: var(--text-footer);
   }
 
   /* Portfolio */
   /* Section 1 button */
   .menu-button{
-  background-color:  #F4F4FD;
+  background-color: var(--text-footer);
   cursor: pointer; 
-  color: #4D5AE5;
+  color: var(--logo-lite);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -207,9 +216,9 @@ body{
     }
   .menu-button:hover,
   .menu-button:focus{
-  background: #404BBF;
-  color: #ffffff;
+  background: var(--activ-btn-link);
+  color: var(--color-white);
      }
 
-     /* Section 2 */
+     
      
