@@ -4,7 +4,6 @@
   --logo-lite:#4d5ae5;
   --logo-dark:#2E2F42;
   --activ-btn-link:#404BBF;
-  --color-grey:#434455;
   --text-footer:#F4F4FD;
      }
 body{
@@ -94,7 +93,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--color-grey);
+    color: var(--color-text);
 }
 
 .contact-link:hover {
@@ -151,7 +150,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--color-grey);
+    color: var(--color-text);
    }  
 
   /* Section 3 */
@@ -183,7 +182,7 @@ body{
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
-   color: var(--color-grey);
+   color: var(--color-text);
 }
   
   /* footer */
