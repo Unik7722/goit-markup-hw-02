@@ -130,7 +130,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    font-family: "Roboto" 'sans-serif';
+    
   }
 
   .hero-button:hover,
@@ -156,6 +156,7 @@ body{
 
   /* Section 3 */
   .gallery{
+    
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -167,11 +168,11 @@ body{
 
   /* Section 4 */
    .company{
-  background-color: #F4F4FD}
+  background-color: #FFFFFF}
   .team{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11;
+    line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
