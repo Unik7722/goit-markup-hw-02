@@ -168,7 +168,7 @@ body{
 
   /* Section 4 */
    .company{
-  background-color:  #FFFFFF}
+  background-color:  #F4F4FD}
   .team{
     font-weight: 700;
     font-size: 36px;
@@ -221,6 +221,7 @@ body{
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  font-family: "Roboto", sans-serif;
       }
   .menu-button:hover,
   .menu-button:focus{
